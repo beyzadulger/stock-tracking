@@ -1,0 +1,207 @@
+﻿body {
+    background-color:#d5d5d5;
+    font-family: 'Trebuchet MS';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration:none;
+    color: #555;
+}
+
+a:hover {
+    color: #999;
+}
+
+#wrapper {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+header{
+    float:left;
+    width:100%;
+    height:45px;
+    background-color:#fff;
+}
+
+header .logo{
+    float: left;
+    width:89px;
+    height: 45px;
+    border-right: 1px solid #ff0000;
+    background-color:white;
+
+    text-align: center;
+    line-height: 45px;
+    color: #990000;
+}
+
+header nav{
+    float: left;
+    width:609px;
+    height:45px;
+    border-right: 1px solid #ff0000;
+    background-color: white;
+    line-height:45px;
+}
+header nav ul{
+     list-style: none;
+}
+header nav ul li{
+    float: left;
+    margin:0 10px;
+    color: #555;
+}
+header .search-wrap{
+        float: left;
+        width: 260px;
+        height:45px;
+}
+header .search-wrap .txtSearch{
+    float:left; 
+    width:190px;
+    padding: 10px;
+    height:25px;
+}
+    header .search-wrap .buttonSearch {
+        float: left;
+        width: 49px;
+        height: 45px;
+        border-left: 1px solid #ff0000;
+    }
+
+    header nav ul li.Ürünler-wrap{
+        position:relative;
+    }
+
+        header nav ul li.Ürünler-wrap.Ürünler {
+            display: none;
+            position: absolute;
+            width: 200px;
+            height: auto;
+            background-color: red;
+        }
+    
+    .banner {
+        float: left;
+        margin-top: 45px;
+        width: 960px;
+        height: 360px;
+        background-color: white;
+        line-height: 360px;
+        text-align: center;
+        font-family: Gigi;
+        font-style: italic;
+        font-size: 36px;
+        color: darkblue;
+        background-image: url('/images/07072015143450_kirtasiye.jpg');
+        background-size: cover;
+    }
+    .left-side{
+        float:left;
+        width:285px;
+        height:auto;
+        margin-top: 45px;
+    }
+
+     .left-side .register{
+         float:left;
+         width:285px;
+         height:auto;
+     }
+        .left-side .register .top{
+            float: left;
+            width: 270px;
+            height: 44px;
+            line-height: 44px;
+            padding-left:15px;
+            border-bottom:1px solid #ccc;
+            background-color:white;
+            color:#555;
+        }
+        .left-side .register .lower {
+            float: left;
+            width: 250px;
+            height: 190px;
+            padding:17.5px;
+            border-bottom: 1px solid #ccc;
+            background-color:white;
+            color:#555;
+        }
+        .left-side .register .lower .textbox{
+            width: 248px;
+            height: 38px;
+            border: 1px solid #ccc;
+        }
+         .left-side .register .lower .buttonregister{
+             float:right;
+             width:100px;
+             height:40px;
+             line-height:40px;
+             text-align:center;
+             color:white;
+             background-color:#0099CC;
+             margin-top:10px;
+         }
+           .left-side .register .lower .password{
+               margin-top:15px;
+           }
+
+
+    .content{
+        float:right;
+        width:625px;
+        height:500px;
+        margin-top: 45px;
+        background-color:white;
+    }
+footer{
+    float:left;
+    width:100%;
+    height:60px;
+    margin-top:45px;
+    background-color:white;
+    text-align:center;
+    line-height:60px;
+    color: #555;
+}
+
+.left-side .announcement{
+    float: left;
+    width:285px;
+    height:auto;
+    margin-top:45px;
+}
+.left-side .announcement .top {
+    float: left;
+    width: 270px;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    color: #555;
+}
+
+.left-side .announcement.lower {
+    float: left;
+    width: 250px;
+    height: auto;
+    padding: 17.5px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    color: #555;
+}
+    .left-side .announcement.lower .announcement-wrap{
+        float:left;
+        width:100%;
+        height:auto;
+        background-color:#d5d5d5;
+    }
